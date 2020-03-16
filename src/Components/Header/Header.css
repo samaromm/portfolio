@@ -1,0 +1,14 @@
+
+
+.forLogo{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.forNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
