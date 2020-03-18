@@ -2,13 +2,13 @@
   text-align: center;
 }
 
-body, html {
+body{
   height: 100%;
-  }
-  .bg {
-  background-image: url('./pics/background.jpg');
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
+}
+.bg {
+background-image: url('./pics/background.jpg');
+height: 120vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

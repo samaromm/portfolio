@@ -1,10 +1,13 @@
 import React from 'react';
 import logopic from '../../pics/logo.png'
-import './Header.css'
+import '../Style.css'
+import {Link} from "react-router-dom";
 
-const logo=()=>{
+const logo=(props)=>{
     return(
-        <img src={logopic} alt="samar's spcae" className="forLogo"/>
+        <Link to="/" exact onClick={props.toggle("")} >
+            <img src={logopic} alt="samar's spcae" className="img-fluid mx-auto d-block forLogo" />
+        </Link>
     )
 }
 export default logo;

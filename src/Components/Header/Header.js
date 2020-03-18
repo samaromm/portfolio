@@ -1,18 +1,17 @@
 import React from 'react';
 import { MDBCard, MDBCardHeader, MDBNav, MDBContainer} from "mdbreact";
-import { Link } from 'react-router-dom';
 import Logo from './logo'
-import Card from './card'
 import AboutIcon from './aboutIcon';
 import CvIcon from './cvIcon';
 import ProjectsIcon from './projectsIcon';
 import ContactIcon from './contactIcon';
-import './Header.css'
+import '../Style.css'
+import {withRouter} from 'react-router-dom';
 
 
 class Header extends React.Component {
   state = {
-    activeItem: "1"
+    activeItem: ""
 }
 
 toggle = tab => () => {
@@ -23,21 +22,40 @@ toggle = tab => () => {
   }
 }
 
+componentDidMount(){
+  switch(this.props.location.pathname){
+    case '/about': 
+      this.setState({activeItem:"1"}); break;
+    case '/cv': 
+      this.setState({activeItem:"2"}); break;
+    case '/projects': 
+      this.setState({activeItem:"3"}); break;
+    case '/contact': 
+      this.setState({activeItem:"4"}); break;
+    default:
+      this.setState({activeItem:""}); break;
+  }
+}
+
+componentWillUnmount(){
+  clearInterval(this.interval)
+}
+
+
 render(){
   return (
     <div className="classic-tabs">
-      <Logo/>
+      <Logo activeItem={this.state.activeItem} toggle={this.toggle}/>
        <MDBContainer>
         <MDBCard className="text-center">
-          <MDBCardHeader className="purple-gradient" >
-            <MDBNav classicTabs className="forNav">
+          <MDBCardHeader className="purple-gradient border border-white" >
+            <MDBNav classicTabs className="d-flex flex-nowrap bd-highlight justify-content-center" >
                 <AboutIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
                 <CvIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
                 <ProjectsIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
                 <ContactIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
             </MDBNav>
           </MDBCardHeader>
-          <Card/>
         </MDBCard>
       </MDBContainer>
     </div>
@@ -45,4 +63,4 @@ render(){
 }
 };
 
-export default Header;
+export default withRouter(Header);
