@@ -33,13 +33,13 @@ class contactForm extends React.Component{
                 <MDBInput type="email" name="email" label="Your email"
                 value={this.state.email.value}
                 className={this.state.email.valid ? "form-control is-valid" : "form-control is-invalid"}
-                onChange={this.changeHandler}/>
+                onChange={this.changeHandler}/> 
                 <MDBInput type="textarea" name="message" outline label="Your message" 
                 value={this.state.message.value}
                 className={this.state.message.valid ? "form-control is-valid" : "form-control is-invalid"}
                 onChange={this.changeHandler}/>
                 {status === "SUCCESS" ? <p>Thanks! Message received</p> :<button className=" btn btn-primary">Send</button>}
-                {status === "ERROR" && <p>Sorry.. There was an error. Make sure to fill all the fileds</p>}
+                {status === "ERROR" && <p>Sorry.. There was an error. Make sure to fill all the fields</p>}
                 </form>
            </div>
         );
