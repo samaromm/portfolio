@@ -1,13 +1,14 @@
 import React from 'react';
 import { MDBCardBody, MDBCard, MDBContainer, MDBRow, MDBCol} from "mdbreact";
 import astronaut from '../../../pics/2.png';
+import '../../../Components/Style.css'
 
 const About =()=>{
-        const scrollContainerStyle = { maxHeight: "70vh" };
+        const scrollContainerStyle = { maxHeight: "80vh" };
         return(
             <MDBContainer >
                 <MDBCard className="text-center " >
-                    <MDBCardBody className="border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
+                    <MDBCardBody  className=" d-flex align-items-center forCards border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
                         <MDBRow>
                             <MDBCol >
                                 <h5 style={{color:"#B273E1"}} className="border border-secondary p-3 w-responsive mx-auto" > 

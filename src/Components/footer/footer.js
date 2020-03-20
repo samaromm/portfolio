@@ -3,7 +3,7 @@ import { MDBContainer,MDBCard, MDBCardFooter} from "mdbreact";
 
 const footer =()=>{
     return(
-            <MDBContainer className="footer-copyright text-center mb-3">
+            <MDBContainer className="footer-copyright text-center pb-5">
                 <MDBCard className="purple-gradient">
                     <MDBCardFooter className="border border-white text-white">
                         Made with <i class="far fa-heart"></i><br/>

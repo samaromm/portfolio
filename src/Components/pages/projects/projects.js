@@ -1,12 +1,13 @@
 import React from 'react';
 import { MDBCardText, MDBCardBody, MDBCardTitle, MDBBtn, MDBCard, MDBContainer} from "mdbreact";
+import '../../../Components/Style.css'
 
 export default class projects extends React.Component{
     render(){
         return(
             <MDBContainer className="rounded-0">
                 <MDBCard className="text-center">
-                    <MDBCardBody className="border border-white">
+                    <MDBCardBody className=" border border-white forCards">
                         <MDBCardTitle>Special title treatment</MDBCardTitle>
                         <MDBCardText>hmm</MDBCardText>
                         <MDBBtn></MDBBtn>

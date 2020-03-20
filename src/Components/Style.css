@@ -6,11 +6,21 @@
 
 .forHome{
     background-image: url('https://media3.giphy.com/media/DZD6OikL9NHxK/giphy.gif');
-    height: 70vh;
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.forCards{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/1200px-Solid_white.svg.png');
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 /*scrolling*/
 .scrollbar {

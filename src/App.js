@@ -4,17 +4,16 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Components/Header/Header.js'
 import About from './Components/pages/About/About';
 import Contact from './Components/pages/Contact/contact';
-import Cv from './Components/pages/cv';
-import Projects from './Components/pages/projects';
+import Cv from './Components/pages/Cv/cv';
+import Projects from './Components/pages/projects/projects';
 import Home from './Components/pages/home'
 import Footer from './Components/footer/footer'
 
 
 class App extends React.Component{
   render(){
-    const classImg = window.innerWidth >= 600 ? "bg" : "smallbg";
     return(
-      <div className={classImg}>
+      <div className="bg">
         <Router>
            <Header/>
            <Route path='/' exact component={Home}/>
