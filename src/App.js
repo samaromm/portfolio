@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Components/Header/Header.js'
-import About from './Components/pages/About';
+import About from './Components/pages/About/About';
 import Contact from './Components/pages/Contact/contact';
 import Cv from './Components/pages/cv';
 import Projects from './Components/pages/projects';
