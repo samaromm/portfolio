@@ -38,7 +38,7 @@ class contactForm extends React.Component{
                 value={this.state.message.value}
                 className={this.state.message.valid ? "form-control is-valid" : "form-control is-invalid"}
                 onChange={this.changeHandler}/>
-                {status === "SUCCESS" ? <p>Thanks! Message received</p> :<button className=" btn btn-primary">Send</button>}
+                {status === "SUCCESS" ? <p>Thanks! Message received</p> :<button className=" btn btn-secondary">Send</button>}
                 {status === "ERROR" && <p>Sorry.. There was an error. Make sure to fill all the fields</p>}
                 </form>
            </div>
