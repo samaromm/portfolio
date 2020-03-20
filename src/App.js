@@ -12,8 +12,9 @@ import Footer from './Components/footer/footer'
 
 class App extends React.Component{
   render(){
+    const classImg = window.innerWidth >= 600 ? "bg" : "smallbg";
     return(
-      <div className="bg">
+      <div className={classImg}>
         <Router>
            <Header/>
            <Route path='/' exact component={Home}/>
