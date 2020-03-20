@@ -3,8 +3,7 @@ import { MDBCard, MDBContainer, MDBIcon,MDBBtn } from "mdbreact";
 import '../Style.css';
 import {Link} from 'react-router-dom'
 
-export default class home extends React.Component{
-    render(){
+const home=(props)=>{
             return (
                   <MDBContainer className="d-flex flex-column ">
                       <MDBCard className="card-image forHome ">
@@ -29,5 +28,5 @@ export default class home extends React.Component{
                       </MDBCard>
                   </MDBContainer>
         )
-    }
 }
+export default home

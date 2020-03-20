@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBCardBody, MDBCard, MDBContainer, MDBRow, MDBCol} from "mdbreact";
-import astronaut from '../../../pics/2.png'
+import astronaut from '../../../pics/2.png';
 
 const About =()=>{
         const scrollContainerStyle = { maxHeight: "70vh" };
