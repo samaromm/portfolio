@@ -11,13 +11,13 @@ const About =()=>{
                     <MDBCardBody  className="forCards border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
                         <MDBRow>
                             <MDBCol >
-                                <h5 style={{color:"#B273E1"}} className="border border-secondary p-3 w-responsive mx-auto" > 
+                                <h5 style={{color:"#B273E1"}} className="border border-secondary p-3 w-responsive mt-4 mx-auto" > 
                                     Software Engineer,
                                     <br/>
                                     Front-end Web Developer
                                 </h5> 
                                 <br/><p className=" text-left w-responsive mx-auto mb-5" >
-                                I'm Samar, a 3rd year Software Engineering student. <br/>
+                                I'm Samar, a 3rd grade Software Engineering student. <br/>
                                 Good knowledge of <span style={{color:"#f06ec9"}} >OOP, Java, C#,</span> 
                                 and specifically <span style={{color:"#f06ec9"}} >Web Development and React framework.</span> <br/>
                                 Enrolled in <a href="https://www.re-coded.com/" target="blank">Re:coded</a>'s 
