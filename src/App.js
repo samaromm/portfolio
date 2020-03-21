@@ -16,11 +16,11 @@ class App extends React.Component{
       <div className="bg">
         <Router>
            <Header/>
-           <Route path='/' exact component={Home}/>
-           <Route path='/about' exact component={About}/>
-           <Route path='/contact' exact component={Contact}/>
-           <Route path='/cv' exact component={Cv}/>
-           <Route path='/projects' exact component={Projects}/>
+           <Route path='samarspace/' exact component={Home}/>
+           <Route path='samarspace/about' exact component={About}/>
+           <Route path='samarspace/contact' exact component={Contact}/>
+           <Route path='samarspace/cv' exact component={Cv}/>
+           <Route path='samarspace/projects' exact component={Projects}/>
            <Footer/>
         </Router>
       </div>  
