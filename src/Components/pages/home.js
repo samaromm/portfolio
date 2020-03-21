@@ -3,8 +3,7 @@ import { MDBCard, MDBContainer, MDBIcon,MDBBtn } from "mdbreact";
 import '../Style.css';
 import {Link} from 'react-router-dom'
 
-class home extends React.Component{
-      render(){
+const home = (props) =>{
         return (
           <MDBContainer className="d-flex flex-column ">
               <MDBCard className="card-image forHome ">
@@ -20,7 +19,7 @@ class home extends React.Component{
                     <p className="pb-3">
                       Want to join an adventure to my space?
                     </p>
-                    <Link to='/about'><MDBBtn color="secondary" rounded size="md" onClick="ComponentWillMount()">
+                    <Link to='/about'><MDBBtn color="secondary" rounded size="md" onClick={props.toggle("1")}>
                       <MDBIcon far icon="clone" className="left" /> About Me
                     </MDBBtn>
                     </Link>     
@@ -28,7 +27,6 @@ class home extends React.Component{
                 </div>
               </MDBCard>
           </MDBContainer>
-        )
-      }           
+        )           
 }
 export default home
