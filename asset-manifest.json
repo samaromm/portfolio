@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/samarspace/static/css/main.a47f381c.chunk.css",
-    "main.js": "/samarspace/static/js/main.166689d4.chunk.js",
-    "main.js.map": "/samarspace/static/js/main.166689d4.chunk.js.map",
+    "main.js": "/samarspace/static/js/main.ce3d06c0.chunk.js",
+    "main.js.map": "/samarspace/static/js/main.ce3d06c0.chunk.js.map",
     "runtime-main.js": "/samarspace/static/js/runtime-main.c9046e61.js",
     "runtime-main.js.map": "/samarspace/static/js/runtime-main.c9046e61.js.map",
     "static/css/2.af70709e.chunk.css": "/samarspace/static/css/2.af70709e.chunk.css",
     "static/js/2.4acfb3cf.chunk.js": "/samarspace/static/js/2.4acfb3cf.chunk.js",
     "static/js/2.4acfb3cf.chunk.js.map": "/samarspace/static/js/2.4acfb3cf.chunk.js.map",
     "index.html": "/samarspace/index.html",
-    "precache-manifest.b514017ab3827fa7534cdc18bfda0de6.js": "/samarspace/precache-manifest.b514017ab3827fa7534cdc18bfda0de6.js",
+    "precache-manifest.5e3998937c38fb34b2451b3eb9204706.js": "/samarspace/precache-manifest.5e3998937c38fb34b2451b3eb9204706.js",
     "service-worker.js": "/samarspace/service-worker.js",
     "static/css/2.af70709e.chunk.css.map": "/samarspace/static/css/2.af70709e.chunk.css.map",
     "static/css/main.a47f381c.chunk.css.map": "/samarspace/static/css/main.a47f381c.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.af70709e.chunk.css",
     "static/js/2.4acfb3cf.chunk.js",
     "static/css/main.a47f381c.chunk.css",
-    "static/js/main.166689d4.chunk.js"
+    "static/js/main.ce3d06c0.chunk.js"
   ]
 }
