@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/samarspace/static/css/main.a47f381c.chunk.css",
-    "main.js": "/samarspace/static/js/main.4f3b1d6a.chunk.js",
-    "main.js.map": "/samarspace/static/js/main.4f3b1d6a.chunk.js.map",
+    "main.css": "/samarspace/static/css/main.78cf6943.chunk.css",
+    "main.js": "/samarspace/static/js/main.924b6f9b.chunk.js",
+    "main.js.map": "/samarspace/static/js/main.924b6f9b.chunk.js.map",
     "runtime-main.js": "/samarspace/static/js/runtime-main.c9046e61.js",
     "runtime-main.js.map": "/samarspace/static/js/runtime-main.c9046e61.js.map",
     "static/css/2.af70709e.chunk.css": "/samarspace/static/css/2.af70709e.chunk.css",
     "static/js/2.4acfb3cf.chunk.js": "/samarspace/static/js/2.4acfb3cf.chunk.js",
     "static/js/2.4acfb3cf.chunk.js.map": "/samarspace/static/js/2.4acfb3cf.chunk.js.map",
     "index.html": "/samarspace/index.html",
-    "precache-manifest.61b9b56f30ddf26576da11c116ab31f5.js": "/samarspace/precache-manifest.61b9b56f30ddf26576da11c116ab31f5.js",
+    "precache-manifest.b80597ecad7487319d698607d823ea51.js": "/samarspace/precache-manifest.b80597ecad7487319d698607d823ea51.js",
     "service-worker.js": "/samarspace/service-worker.js",
     "static/css/2.af70709e.chunk.css.map": "/samarspace/static/css/2.af70709e.chunk.css.map",
-    "static/css/main.a47f381c.chunk.css.map": "/samarspace/static/css/main.a47f381c.chunk.css.map",
+    "static/css/main.78cf6943.chunk.css.map": "/samarspace/static/css/main.78cf6943.chunk.css.map",
     "static/js/2.4acfb3cf.chunk.js.LICENSE.txt": "/samarspace/static/js/2.4acfb3cf.chunk.js.LICENSE.txt",
-    "static/media/Style.css": "/samarspace/static/media/homegif.c86ed74a.gif",
     "static/media/2.png": "/samarspace/static/media/2.eebb162b.png",
     "static/media/mdb.css": "/samarspace/static/media/arrow_right.8ef6a08c.svg",
     "static/media/App.css": "/samarspace/static/media/background.615a17b2.jpg",
     "static/media/all.min.css": "/samarspace/static/media/fa-solid-900.cdfec5cf.woff",
+    "static/media/Style.css": "/samarspace/static/media/projectsbg.9a492a3e.jpg",
     "static/media/logo.png": "/samarspace/static/media/logo.47dfb17d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c9046e61.js",
     "static/css/2.af70709e.chunk.css",
     "static/js/2.4acfb3cf.chunk.js",
-    "static/css/main.a47f381c.chunk.css",
-    "static/js/main.4f3b1d6a.chunk.js"
+    "static/css/main.78cf6943.chunk.css",
+    "static/js/main.924b6f9b.chunk.js"
   ]
 }
