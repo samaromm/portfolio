@@ -8,7 +8,7 @@ const About =()=>{
         return(
             <MDBContainer >
                 <MDBCard className="text-center " >
-                    <MDBCardBody  className=" d-flex align-items-center forCards border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
+                    <MDBCardBody  className="forCards border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
                         <MDBRow>
                             <MDBCol >
                                 <h5 style={{color:"#B273E1"}} className="border border-secondary p-3 w-responsive mx-auto" > 
