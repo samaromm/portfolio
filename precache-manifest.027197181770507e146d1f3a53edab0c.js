@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e753e7a3df142877d2e92407420672a8",
+    "revision": "7c1439ad77a510c044f64014a6515995",
     "url": "/samarspace/index.html"
   },
   {
-    "revision": "3f982506e305b135407d",
+    "revision": "cb273a3e822f1653f0de",
     "url": "/samarspace/static/css/2.af70709e.chunk.css"
   },
   {
-    "revision": "d6fc7d014f6df270be3c",
+    "revision": "69afd0205f58271e69f8",
     "url": "/samarspace/static/css/main.78cf6943.chunk.css"
   },
   {
-    "revision": "3f982506e305b135407d",
-    "url": "/samarspace/static/js/2.bb75f2e2.chunk.js"
+    "revision": "cb273a3e822f1653f0de",
+    "url": "/samarspace/static/js/2.44d726f7.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/samarspace/static/js/2.bb75f2e2.chunk.js.LICENSE.txt"
+    "url": "/samarspace/static/js/2.44d726f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6fc7d014f6df270be3c",
-    "url": "/samarspace/static/js/main.bd67a404.chunk.js"
+    "revision": "69afd0205f58271e69f8",
+    "url": "/samarspace/static/js/main.6f99e961.chunk.js"
   },
   {
     "revision": "ddc63a288b97269133c5",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "615a17b249c9e92fd23be8fafc8c2abd",
     "url": "/samarspace/static/media/background.615a17b2.jpg"
+  },
+  {
+    "revision": "2b77ae8a72eed2dd583e1e3906b734ef",
+    "url": "/samarspace/static/media/colorSlider.2b77ae8a.gif"
   },
   {
     "revision": "067595ad77ecc0db9c81c8905a7eef32",
@@ -112,7 +116,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/samarspace/static/media/logo.47dfb17d.png"
   },
   {
+    "revision": "fc6ba4c3fd75403472cc1b710121ea2a",
+    "url": "/samarspace/static/media/moviefun.fc6ba4c3.gif"
+  },
+  {
     "revision": "9a492a3e8f410ac4bbd335f649ebc2b0",
     "url": "/samarspace/static/media/projectsbg.9a492a3e.jpg"
+  },
+  {
+    "revision": "0fc50a2a931805843bd6097f180293af",
+    "url": "/samarspace/static/media/slider.0fc50a2a.gif"
   }
 ]);

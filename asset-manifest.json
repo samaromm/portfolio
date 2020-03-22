@@ -1,31 +1,34 @@
 {
   "files": {
     "main.css": "/samarspace/static/css/main.78cf6943.chunk.css",
-    "main.js": "/samarspace/static/js/main.bd67a404.chunk.js",
-    "main.js.map": "/samarspace/static/js/main.bd67a404.chunk.js.map",
+    "main.js": "/samarspace/static/js/main.6f99e961.chunk.js",
+    "main.js.map": "/samarspace/static/js/main.6f99e961.chunk.js.map",
     "runtime-main.js": "/samarspace/static/js/runtime-main.c9046e61.js",
     "runtime-main.js.map": "/samarspace/static/js/runtime-main.c9046e61.js.map",
     "static/css/2.af70709e.chunk.css": "/samarspace/static/css/2.af70709e.chunk.css",
-    "static/js/2.bb75f2e2.chunk.js": "/samarspace/static/js/2.bb75f2e2.chunk.js",
-    "static/js/2.bb75f2e2.chunk.js.map": "/samarspace/static/js/2.bb75f2e2.chunk.js.map",
+    "static/js/2.44d726f7.chunk.js": "/samarspace/static/js/2.44d726f7.chunk.js",
+    "static/js/2.44d726f7.chunk.js.map": "/samarspace/static/js/2.44d726f7.chunk.js.map",
     "index.html": "/samarspace/index.html",
-    "precache-manifest.7ea25f2b6a9b1d6d3feaeac431f1880f.js": "/samarspace/precache-manifest.7ea25f2b6a9b1d6d3feaeac431f1880f.js",
+    "precache-manifest.027197181770507e146d1f3a53edab0c.js": "/samarspace/precache-manifest.027197181770507e146d1f3a53edab0c.js",
     "service-worker.js": "/samarspace/service-worker.js",
     "static/css/2.af70709e.chunk.css.map": "/samarspace/static/css/2.af70709e.chunk.css.map",
     "static/css/main.78cf6943.chunk.css.map": "/samarspace/static/css/main.78cf6943.chunk.css.map",
-    "static/js/2.bb75f2e2.chunk.js.LICENSE.txt": "/samarspace/static/js/2.bb75f2e2.chunk.js.LICENSE.txt",
+    "static/js/2.44d726f7.chunk.js.LICENSE.txt": "/samarspace/static/js/2.44d726f7.chunk.js.LICENSE.txt",
     "static/media/2.png": "/samarspace/static/media/2.eebb162b.png",
     "static/media/mdb.css": "/samarspace/static/media/arrow_right.8ef6a08c.svg",
     "static/media/App.css": "/samarspace/static/media/background.615a17b2.jpg",
+    "static/media/colorSlider.gif": "/samarspace/static/media/colorSlider.2b77ae8a.gif",
     "static/media/all.min.css": "/samarspace/static/media/fa-solid-900.cdfec5cf.woff",
     "static/media/Style.css": "/samarspace/static/media/projectsbg.9a492a3e.jpg",
-    "static/media/logo.png": "/samarspace/static/media/logo.47dfb17d.png"
+    "static/media/logo.png": "/samarspace/static/media/logo.47dfb17d.png",
+    "static/media/moviefun.gif": "/samarspace/static/media/moviefun.fc6ba4c3.gif",
+    "static/media/slider.gif": "/samarspace/static/media/slider.0fc50a2a.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c9046e61.js",
     "static/css/2.af70709e.chunk.css",
-    "static/js/2.bb75f2e2.chunk.js",
+    "static/js/2.44d726f7.chunk.js",
     "static/css/main.78cf6943.chunk.css",
-    "static/js/main.bd67a404.chunk.js"
+    "static/js/main.6f99e961.chunk.js"
   ]
 }
