@@ -1,7 +1,6 @@
 import React from 'react';
-import { MDBCard, MDBContainer, MDBIcon,MDBBtn } from "mdbreact";
+import { MDBCard, MDBContainer, MDBIcon} from "mdbreact";
 import '../Style.css';
-import {Link} from 'react-router-dom'
 
 const home = (props) =>{
         return (
@@ -18,11 +17,7 @@ const home = (props) =>{
                     </h3>
                     <p className="pb-3">
                       Want to join an adventure to my space?
-                    </p>
-                    <Link to='/about'><MDBBtn color="secondary" rounded size="md" onClick={props.toggle("1")}>
-                      <MDBIcon far icon="clone" className="left" /> About Me
-                    </MDBBtn>
-                    </Link>     
+                    </p>     
                   </div>
                 </div>
               </MDBCard>
