@@ -1,7 +1,6 @@
 import React from 'react';
 import { MDBCardBody, MDBCollapse, MDBRow, MDBCol} from "mdbreact";
 import colorSlider from '../../../pics/colorSlider.gif'
-import slider from '../../../pics/slider.gif'
 
 const secContents=(props)=>{
     return(

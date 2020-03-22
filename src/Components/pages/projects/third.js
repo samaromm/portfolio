@@ -11,7 +11,7 @@ class third extends React.Component{
                     <div className=" border border-dark float-left mr-4" style={{ backgroundColor:"#eeeeee", height:"60px"}} >
                         <MDBIcon fab icon="js-square"  size="2x"className="m-3 purple-text"/>
                     </div>
-                    <MDBCardTitle style={{ color:"#fff", fontWeight:'bold'}}>ITEM #1</MDBCardTitle>
+                    <MDBCardTitle style={{ color:"#fff", fontWeight:'bold'}}>Pizza Form</MDBCardTitle>
                     <MDBMask className="flex-center" overlay="white-strong"/>
                 </MDBView>
                 <Contents collapseID={this.props.collapseID} />
