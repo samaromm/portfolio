@@ -11,7 +11,7 @@ const firstContents=(props)=>{
                         <MDBRow className="d-flex justify-content-center mb-3">
                             <MDBCol>
                                 <img src={moviefun} 
-                                alt="screenshot of the website" className="figure-img img-fluid mx-auto d-block z-depth-1  " />
+                                alt="screenrecord of the website" className="figure-img img-fluid mx-auto d-block z-depth-1  " />
                                 <figcaption className="figure-caption black-text text-center" style={{backgroundColor:"#fff"}}>
                                     <a href="https://github.com/samaromm/moviefun" className="mr-4" target="blank">Github</a>
                                     <a href="https://mervegumuskaya.github.io/moviefun/index.html" target="blank">gh pages</a>
@@ -20,7 +20,7 @@ const firstContents=(props)=>{
                         </MDBRow>
                         <div className="border mb-3 p-2 border-dark" style={{backgroundColor:"rgba(68,63,168,0.5)"}}>
                             <h6 className="text-center "> 
-                                Group Project, HTML/CSS/Bootstrap,
+                                Group Project, HTML/CSS/Bootstrap<br/>
                                 Website for criticizing movies
                             </h6>
                         </div>
