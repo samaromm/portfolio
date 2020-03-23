@@ -1,8 +1,7 @@
 import React from 'react';
 import { MDBCardBody, MDBCard, MDBContainer} from "mdbreact";
 import '../../../Components/Style.css'
-import BurgerMenu from './burgerMenu'
-import Lists from './lists'
+import Modal from './ModalButtons'
 
 export default class cv extends React.Component{
     render(){
@@ -11,8 +10,7 @@ export default class cv extends React.Component{
             <MDBContainer>
                 <MDBCard className="text-center">
                     <MDBCardBody className=" forCards border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
-                        {window.innerWidth<1230?<BurgerMenu/>:<Lists/>}
-                        {console.log(window.innerWidth)}
+                        <Modal/>
                     </MDBCardBody>
                 </MDBCard>
             </MDBContainer>
