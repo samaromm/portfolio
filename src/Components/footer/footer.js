@@ -7,7 +7,7 @@ const footer =()=>{
                 <MDBCard className="purple-gradient">
                     <MDBCardFooter className="border border-white text-white">
                         Made with <i class="far fa-heart"></i><br/>
-                        &copy; {new Date().getFullYear()} Photos Copyright: <a href="http://www.freepik.com" target="blank"> Freepik </a>    
+                        &copy; Photos Copyright: <a href="http://www.freepik.com" target="blank"> Freepik </a>    
                     </MDBCardFooter>
                 </MDBCard>
             </MDBContainer>

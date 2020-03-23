@@ -24,10 +24,10 @@ open = (event) => {
 render() {
   return (
     <MDBContainer>
-      <MDBBtn onClick={this.open} id="Education">Education</MDBBtn>
-      <MDBBtn onClick={this.open} id="Certifications">Certifications</MDBBtn>
-      <MDBBtn onClick={this.open} id="Skills">Skills</MDBBtn>
-      <MDBBtn onClick={this.open} id="Experince">Experince</MDBBtn>
+      <MDBBtn outline onClick={this.open} id="Education">Education</MDBBtn>
+      <MDBBtn outline onClick={this.open} id="Certifications">Certifications</MDBBtn>
+      <MDBBtn outline onClick={this.open} id="Skills">Skills</MDBBtn>
+      <MDBBtn outline onClick={this.open} id="Experince">Experince</MDBBtn>
       <Body id={this.state.id} modal={this.state.modal} close={this.close}/>
     </MDBContainer>
     );
