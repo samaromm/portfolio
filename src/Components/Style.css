@@ -14,10 +14,22 @@
 .forCv{
     background-image: url('../pics//bg (2).gif');
     height: 80vh;
-    background-position-y: 50%;
-    background-position: center;
+    background-position: 70%;
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+.cvButtons{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+}
+
+a:hover{
+  color:#C370D9;
+}
+.pink1:hover{
+  color:#C370D9;
 }
 
 .forCards{
