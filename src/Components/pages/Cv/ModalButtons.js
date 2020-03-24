@@ -40,7 +40,7 @@ render() {
             Education
           </MDBBtn>
           <MDBBtn onClick={this.open} id="Certifications" className="p-0 bd-highlight border cvButtons forSpin" gradient="blue" >
-            certificates
+            certificate
           </MDBBtn>
           <MDBBtn onClick={this.open} id="Skills" className="p-0 bd-highlight border cvButtons forSpin" gradient="blue">
             Skills

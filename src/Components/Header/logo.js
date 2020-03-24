@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 const logo=(props)=>{
     return(
         <Link to="/" exact onClick={props.toggle("")} >
-            <img src={logopic} alt="samar's spcae" className="img-fluid mx-auto d-block forLogo" />
+            <img src={logopic} alt="samar's spcae" className="img-fluid mx-auto d-block forLogo forSpin" />
         </Link>
     )
 }
