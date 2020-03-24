@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4cdb10d8dd5f86cfd011968ab42b417",
+    "revision": "36d94efdef3fee287d7b33fb41692fd1",
     "url": "/samarspace/index.html"
   },
   {
-    "revision": "2decb96a06ef2fd74394",
+    "revision": "8026c1b0f0e6c0eff8b3",
     "url": "/samarspace/static/css/2.af70709e.chunk.css"
   },
   {
-    "revision": "7103722b472a7544d251",
-    "url": "/samarspace/static/css/main.c0aab4e6.chunk.css"
+    "revision": "1c826200631957bcaad3",
+    "url": "/samarspace/static/css/main.3c6115d1.chunk.css"
   },
   {
-    "revision": "2decb96a06ef2fd74394",
-    "url": "/samarspace/static/js/2.ebb3607c.chunk.js"
+    "revision": "8026c1b0f0e6c0eff8b3",
+    "url": "/samarspace/static/js/2.172ef33e.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/samarspace/static/js/2.ebb3607c.chunk.js.LICENSE.txt"
+    "url": "/samarspace/static/js/2.172ef33e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7103722b472a7544d251",
-    "url": "/samarspace/static/js/main.16519255.chunk.js"
+    "revision": "1c826200631957bcaad3",
+    "url": "/samarspace/static/js/main.b90cd17f.chunk.js"
   },
   {
     "revision": "87ad0e22a769730ed8e4",
