@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab41c4347f39ef8d1c6d7a6a1be9ba0b",
+    "revision": "03f19a1e0f54643c1dd0ae20f17a0bcf",
     "url": "/samarspace/index.html"
   },
   {
-    "revision": "8ce6bc1e55f841bac70b",
+    "revision": "2decb96a06ef2fd74394",
     "url": "/samarspace/static/css/2.af70709e.chunk.css"
   },
   {
-    "revision": "03ef4586058eb5d68927",
-    "url": "/samarspace/static/css/main.78cf6943.chunk.css"
+    "revision": "214f3a4150d6c0c511be",
+    "url": "/samarspace/static/css/main.11786adb.chunk.css"
   },
   {
-    "revision": "8ce6bc1e55f841bac70b",
-    "url": "/samarspace/static/js/2.a637faff.chunk.js"
+    "revision": "2decb96a06ef2fd74394",
+    "url": "/samarspace/static/js/2.ebb3607c.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/samarspace/static/js/2.a637faff.chunk.js.LICENSE.txt"
+    "url": "/samarspace/static/js/2.ebb3607c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03ef4586058eb5d68927",
-    "url": "/samarspace/static/js/main.171fca84.chunk.js"
+    "revision": "214f3a4150d6c0c511be",
+    "url": "/samarspace/static/js/main.0a4fa3f1.chunk.js"
   },
   {
     "revision": "87ad0e22a769730ed8e4",
@@ -42,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "615a17b249c9e92fd23be8fafc8c2abd",
     "url": "/samarspace/static/media/background.615a17b2.jpg"
+  },
+  {
+    "revision": "8cf1e868c7278ff4a10913af84283953",
+    "url": "/samarspace/static/media/bg (2).8cf1e868.gif"
+  },
+  {
+    "revision": "bd2540d288e001953298c2b2d3dee00a",
+    "url": "/samarspace/static/media/bg (6).bd2540d2.gif"
   },
   {
     "revision": "2b77ae8a72eed2dd583e1e3906b734ef",
@@ -118,6 +126,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc6ba4c3fd75403472cc1b710121ea2a",
     "url": "/samarspace/static/media/moviefun.fc6ba4c3.gif"
+  },
+  {
+    "revision": "ec6446b531cb85011e23a83d66e2776d",
+    "url": "/samarspace/static/media/p1.ec6446b5.png"
+  },
+  {
+    "revision": "9ae9b2fb37e0bcc31c8545e704f1de23",
+    "url": "/samarspace/static/media/p2.9ae9b2fb.png"
+  },
+  {
+    "revision": "c823f2d7b92fbbd002a7c6cb167cdc1c",
+    "url": "/samarspace/static/media/p3.c823f2d7.png"
   },
   {
     "revision": "eec01d5f74ad4ad195f9952f8ee4f72c",
