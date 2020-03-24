@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/samarspace/static/css/main.11786adb.chunk.css",
-    "main.js": "/samarspace/static/js/main.0a4fa3f1.chunk.js",
-    "main.js.map": "/samarspace/static/js/main.0a4fa3f1.chunk.js.map",
+    "main.css": "/samarspace/static/css/main.c0aab4e6.chunk.css",
+    "main.js": "/samarspace/static/js/main.16519255.chunk.js",
+    "main.js.map": "/samarspace/static/js/main.16519255.chunk.js.map",
     "runtime-main.js": "/samarspace/static/js/runtime-main.c9da38a7.js",
     "runtime-main.js.map": "/samarspace/static/js/runtime-main.c9da38a7.js.map",
     "static/css/2.af70709e.chunk.css": "/samarspace/static/css/2.af70709e.chunk.css",
     "static/js/2.ebb3607c.chunk.js": "/samarspace/static/js/2.ebb3607c.chunk.js",
     "static/js/2.ebb3607c.chunk.js.map": "/samarspace/static/js/2.ebb3607c.chunk.js.map",
     "index.html": "/samarspace/index.html",
-    "precache-manifest.f2f3d0e2aa134b047eb8d03f9864b073.js": "/samarspace/precache-manifest.f2f3d0e2aa134b047eb8d03f9864b073.js",
+    "precache-manifest.71b386087008e0730307f9c3b0f69b85.js": "/samarspace/precache-manifest.71b386087008e0730307f9c3b0f69b85.js",
     "service-worker.js": "/samarspace/service-worker.js",
     "static/css/2.af70709e.chunk.css.map": "/samarspace/static/css/2.af70709e.chunk.css.map",
-    "static/css/main.11786adb.chunk.css.map": "/samarspace/static/css/main.11786adb.chunk.css.map",
+    "static/css/main.c0aab4e6.chunk.css.map": "/samarspace/static/css/main.c0aab4e6.chunk.css.map",
     "static/js/2.ebb3607c.chunk.js.LICENSE.txt": "/samarspace/static/js/2.ebb3607c.chunk.js.LICENSE.txt",
     "static/media/2.png": "/samarspace/static/media/2.eebb162b.png",
     "static/media/mdb.css": "/samarspace/static/media/arrow_right.8ef6a08c.svg",
     "static/media/App.css": "/samarspace/static/media/background.615a17b2.jpg",
-    "static/media/Style.css": "/samarspace/static/media/projectsbg.9a492a3e.jpg",
+    "static/media/Style.css": "/samarspace/static/media/projectsbg.f4dbb15a.jpg",
     "static/media/colorSlider.gif": "/samarspace/static/media/colorSlider.2b77ae8a.gif",
     "static/media/all.min.css": "/samarspace/static/media/fa-solid-900.cdfec5cf.woff",
     "static/media/logo.png": "/samarspace/static/media/logo.47dfb17d.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.c9da38a7.js",
     "static/css/2.af70709e.chunk.css",
     "static/js/2.ebb3607c.chunk.js",
-    "static/css/main.11786adb.chunk.css",
-    "static/js/main.0a4fa3f1.chunk.js"
+    "static/css/main.c0aab4e6.chunk.css",
+    "static/js/main.16519255.chunk.js"
   ]
 }
