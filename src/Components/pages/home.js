@@ -8,7 +8,7 @@ const home = (props) =>{
               <MDBCard className="card-image forHome ">
                 <div className=" justify-content-center text-white text-center d-flex align-items-center py-5 px-4 rounded">
                   <div>
-                    <h6 className="purple-text">         
+                    <h6 className="purple-text ">         
                       <strong> Spaceflight </strong>
                       <MDBIcon icon="fas fa-space-shuttle" />
                     </h6>

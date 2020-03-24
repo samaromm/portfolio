@@ -8,8 +8,8 @@ export default class cv extends React.Component{
         const scrollContainerStyle = { maxHeight: "80vh" };
         return(
             <MDBContainer>
-                <MDBCard className="text-center">
-                    <MDBCardBody className=" forCards border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
+                <MDBCard className="text-center forCv " style={{backgroundColor:"#354187"}}>
+                    <MDBCardBody className=" border border-white scrollbar scrollbar-secondary rgba-white-light" style={scrollContainerStyle}>
                         <Modal/>
                     </MDBCardBody>
                 </MDBCard>

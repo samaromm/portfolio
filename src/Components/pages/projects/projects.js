@@ -21,13 +21,13 @@ export default class projects extends React.Component{
         return(            
             <MDBContainer >
                 <MDBCard className="card-image forProject" >
-                    <MDBCardBody className="rgba-black-strong py-4 px-4 border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
+                    <MDBCardBody className="py-4 px-4 border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
                         <MDBRow className="d-flex justify-content-center mb-3 ">
-                            <MDBCol md="5" sm="4">
+                            <MDBCol md="5" sm="4" className="animated bounceInDown">
                                 <Slider/>
                             </MDBCol>
                         </MDBRow>
-                        <MDBRow className="d-flex justify-content-center ">
+                        <MDBRow className="d-flex justify-content-center animated slideInRight">
                             <MDBCol md="10" xl="8">
                                 <MDBContainer>
                                     <First collapseID={this.state.collapseID} toggleCollapse={this.toggleCollapse}/>

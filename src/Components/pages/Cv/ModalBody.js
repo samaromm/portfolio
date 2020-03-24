@@ -4,8 +4,8 @@ import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from '
 export default class ModalBody extends Component{
     render(){
         return(
-            <MDBModal isOpen={this.props.modal} toggle={this.props.close} size="lg">
-                <MDBModalHeader toggle={this.props.close}>{this.props.id}</MDBModalHeader>
+            <MDBModal isOpen={this.props.modal} toggle={this.props.close} size="lg" centered>
+                <MDBModalHeader >{this.props.id}</MDBModalHeader>
                 <MDBModalBody >
                     
                 </MDBModalBody>

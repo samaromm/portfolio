@@ -8,10 +8,10 @@ const About =()=>{
         const scrollContainerStyle = { maxHeight: "80vh" };
         return(
             <MDBContainer >
-                <MDBCard className="text-center " >
-                    <MDBCardBody  className="forCards border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
-                        <MDBRow>
-                            <MDBCol >
+                <MDBCard className="text-center text-white forAbout forCards" >
+                    <MDBCardBody  className=" rgba-black-strong  border border-white scrollbar scrollbar-secondary" style={scrollContainerStyle}>
+                        <MDBRow >
+                            <MDBCol  >
                                 <h5 style={{color:"#B273E1"}} className="border border-secondary p-3 w-responsive mt-4 mx-auto" > 
                                     Software Engineer,
                                     <br/>
@@ -23,8 +23,10 @@ const About =()=>{
                                 and specifically <span style={{color:"#f06ec9"}} >Web Development and React framework.</span> <br/>
                                 Enrolled in <a href="https://www.re-coded.com/" target="blank">Re:coded</a>'s 
                                 front-end development bootcamp, where we get a certificate from <a href="https://flatironschool.com/" target="blank">Flatiron School</a>
-                                </p>          
-                                 <Images/> 
+                                </p> 
+                                <div className="animated slideInRight">      
+                                    <Images/> 
+                                </div>     
                                 <img src ={astronaut} alt="astronaut" className="img-fluid float-left" style={{width:"100px"}}/>
                                 <p className=" lead mb-3 text-left">    
                                 I always try to gain knowledge in different software areas as I can, 

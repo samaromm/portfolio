@@ -1,5 +1,4 @@
 
-
 .forLogo{
     width: 300px;
 }
@@ -12,6 +11,15 @@
     background-size: cover;
 }
 
+.forCv{
+    background-image: url('../pics//bg (2).gif');
+    height: 80vh;
+    background-position-y: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 .forCards{
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/1200px-Solid_white.svg.png');
   height: 80vh;
@@ -22,6 +30,14 @@
 
 .forProject{
   background-image: url('../pics/projectsbg.jpg');
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.forAbout{
+  background-image: url('../pics/bg (6).gif');
   height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,35 +105,116 @@
 
 
   /**animation**/
-  @-webkit-keyframes rollIn {
+  @-webkit-keyframes slideInRight {
     from {
-      opacity: 0;
-      -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
-      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
     }
   
     to {
-      opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
   }
   
-  @keyframes rollIn {
+  @keyframes slideInRight {
     from {
-      opacity: 0;
-      -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
-      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
     }
   
     to {
-      opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
   }
   
-  .rollIn {
-    -webkit-animation-name: rollIn;
-    animation-name: rollIn;
+  .slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
   }
+
+  @-webkit-keyframes bounceInDown {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -3000px, 0);
+      transform: translate3d(0, -3000px, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 25px, 0);
+      transform: translate3d(0, 25px, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(0, -10px, 0);
+      transform: translate3d(0, -10px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, 5px, 0);
+      transform: translate3d(0, 5px, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes bounceInDown {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -3000px, 0);
+      transform: translate3d(0, -3000px, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 25px, 0);
+      transform: translate3d(0, 25px, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(0, -10px, 0);
+      transform: translate3d(0, -10px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, 5px, 0);
+      transform: translate3d(0, 5px, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+  }
+
+  
