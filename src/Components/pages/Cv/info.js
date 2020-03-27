@@ -11,6 +11,11 @@ const info=()=>{
             <hr/>
             <li>
                 <h5 className="text-secondary"> 
+                <MDBIcon icon="birthday-cake" /> 29/8/1998</h5>
+            </li>
+            <hr/>
+            <li>
+                <h5 className="text-secondary"> 
                 <MDBIcon icon="map-marker-alt" /> Istanbul</h5>
             </li>
             <hr/>
@@ -21,7 +26,7 @@ const info=()=>{
             <hr/>
             <li>
                 <h5 className="text-secondary"> 
-                <MDBIcon icon="chalkboard-teacher" /> Trying to learn Turkish</h5>
+                <MDBIcon icon="chalkboard-teacher" /> Learning: Turkish</h5>
             </li>
             <hr/>
             <li>
