@@ -21,7 +21,7 @@ const About =()=>{
                                 I'm Samar, a 3rd grade Software Engineering student. <br/>
                                 Good knowledge of <span style={{color:"#f06ec9"}} >OOP, Java, C#,</span> 
                                 and specifically <span style={{color:"#f06ec9"}} >Web Development and React framework.</span> <br/>
-                                Enrolled in <a href="https://www.re-coded.com/" target="blank">Re:coded</a>'s 
+                                Enrolled in Re:coded's 
                                 front-end development bootcamp, where we get a certificate from <a href="https://flatironschool.com/" target="blank">Flatiron School</a>
                                 </p> 
                                 <div className="animated slideInRight">      

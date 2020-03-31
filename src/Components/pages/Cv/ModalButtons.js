@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { MDBContainer, MDBBtn, MDBRow, MDBCol} from 'mdbreact';
 import Body from './ModalBody'
 import '../../Style.css'
+import Resume from '../../../pdf/Resume.pdf'
 
 class ModalButtons extends Component {
   constructor(){
@@ -47,13 +48,13 @@ render() {
           </MDBBtn>  
           <MDBBtn onClick={this.open} id="Experience" className="p-0 bd-highlight border cvButtons forSpin" gradient="blue">
              Experience
-          </MDBBtn>   
-          <a href="https://drive.google.com/file/d/1zADKPL18qmA6MV7GYwgTII0MhQU0xh5A/view" 
-          style={{color:"white"}} target="blank" >
-            <MDBBtn className="p-0 bd-highlight border cvButtons forSpin" gradient="blue">
-              pdf Copy
-            </MDBBtn>
-          </a>         
+          </MDBBtn> 
+            <a href={Resume} rel="noopener noreferrer"
+            style={{color:"white"}} target="blank" variant="outline-info">
+              <MDBBtn className="p-0 bd-highlight border cvButtons forSpin" gradient="blue">
+                pdf Copy
+              </MDBBtn>
+            </a>          
         </MDBCol>
       </MDBRow> 
       <Body id={this.state.id} modal={this.state.modal} close={this.close}/>
