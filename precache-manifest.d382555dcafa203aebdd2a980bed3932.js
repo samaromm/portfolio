@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1023e3b7b4dfcc8e29c2bf30f8d6012",
+    "revision": "f269ca1cf4d5c875888689ad2e711964",
     "url": "/samarspace/index.html"
   },
   {
-    "revision": "fac06b01c364ad5939ff",
+    "revision": "db1bfdc9881d87524e70",
     "url": "/samarspace/static/css/2.af70709e.chunk.css"
   },
   {
-    "revision": "9aaa0b174b2f0222b91e",
-    "url": "/samarspace/static/css/main.3c6115d1.chunk.css"
+    "revision": "34a48a2ffbfd1e780341",
+    "url": "/samarspace/static/css/main.95166942.chunk.css"
   },
   {
-    "revision": "fac06b01c364ad5939ff",
-    "url": "/samarspace/static/js/2.0a81b28c.chunk.js"
+    "revision": "db1bfdc9881d87524e70",
+    "url": "/samarspace/static/js/2.12c7fefd.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/samarspace/static/js/2.0a81b28c.chunk.js.LICENSE.txt"
+    "url": "/samarspace/static/js/2.12c7fefd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9aaa0b174b2f0222b91e",
-    "url": "/samarspace/static/js/main.a0e8c3ee.chunk.js"
+    "revision": "34a48a2ffbfd1e780341",
+    "url": "/samarspace/static/js/main.132b86ff.chunk.js"
   },
   {
     "revision": "87ad0e22a769730ed8e4",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/samarspace/static/media/2.eebb162b.png"
   },
   {
-    "revision": "98d087280dd2ccb82f26b86f7382590c",
-    "url": "/samarspace/static/media/Resume.98d08728.pdf"
+    "revision": "81afa94f57bb9b9309585421cdc146ac",
+    "url": "/samarspace/static/media/Resume.81afa94f.pdf"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -144,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/samarspace/static/media/p3.c823f2d7.png"
   },
   {
-    "revision": "eec01d5f74ad4ad195f9952f8ee4f72c",
-    "url": "/samarspace/static/media/pizza.eec01d5f.gif"
+    "revision": "cb9ebd18caeaef7e598da24e0fb36b08",
+    "url": "/samarspace/static/media/planner.cb9ebd18.gif"
   },
   {
     "revision": "f4dbb15a0f835fec0fbfec4cf30f7403",
