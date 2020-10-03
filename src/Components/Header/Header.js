@@ -1,10 +1,7 @@
 import React from 'react';
 import { MDBCard, MDBCardHeader, MDBNav, MDBContainer} from "mdbreact";
 import Logo from './logo'
-import AboutIcon from './aboutIcon';
-import CvIcon from './cvIcon';
-import ProjectsIcon from './projectsIcon';
-import ContactIcon from './contactIcon';
+import Icons from './icons';
 import '../Style.css'
 import {withRouter} from 'react-router-dom';
 
@@ -50,10 +47,7 @@ render(){
         <MDBCard className="text-center">
           <MDBCardHeader className="purple-gradient border border-white" >
             <MDBNav classicTabs className="d-flex flex-nowrap bd-highlight justify-content-center" >
-                <AboutIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
-                <CvIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
-                <ProjectsIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
-                <ContactIcon activeItem={this.state.activeItem} toggle={this.toggle}/>
+                <Icons activeItem={this.state.activeItem} toggle={this.toggle}/>
             </MDBNav>
           </MDBCardHeader>
         </MDBCard>

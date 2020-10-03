@@ -7,8 +7,7 @@ const footer =()=>{
             <MDBContainer className="footer-copyright text-center pb-5">
                 <MDBCard className="purple-gradient">
                     <MDBCardFooter className="border border-white text-white">
-                        Made with <MDBIcon icon="heart" className="heart" /><br/>
-                        &copy; Photos Copyright: <a href="http://www.freepik.com" target="blank"> Freepik </a>    
+                        Made with <MDBIcon icon="heart" className="heart" />   
                     </MDBCardFooter>
                 </MDBCard>
             </MDBContainer>
