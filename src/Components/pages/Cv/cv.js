@@ -5,7 +5,7 @@ import Modal from './ModalButtons'
 
 export default class cv extends React.Component{
     render(){
-        const scrollContainerStyle = { maxHeight: "80vh" };
+        const scrollContainerStyle = { maxHeight: "90vh" };
         return(
             <MDBContainer>
                 <MDBCard className="text-center forCv " style={{backgroundColor:"#354187"}}>

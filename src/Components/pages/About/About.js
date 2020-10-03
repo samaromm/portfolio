@@ -2,10 +2,10 @@ import React from 'react';
 import { MDBCardBody, MDBCard, MDBContainer, MDBRow, MDBCol} from "mdbreact";
 import astronaut from '../../../pics/2.png';
 import '../../Style.css';
-import Images from './images'
+import Images from './iconImages'
 
 const About =()=>{
-        const scrollContainerStyle = { maxHeight: "80vh" };
+        const scrollContainerStyle = { maxHeight: "90vh" };
         return(
             <MDBContainer >
                 <MDBCard className="text-center text-white forAbout forCards" >
@@ -15,14 +15,15 @@ const About =()=>{
                                 <h5 style={{color:"#B273E1"}} className="border border-secondary p-3 w-responsive mt-4 mx-auto" > 
                                     Software Engineer,
                                     <br/>
-                                    Front-end Web Developer
+                                    Junior Full Stack Developer
                                 </h5> 
                                 <br/><p className=" text-left w-responsive mx-auto mb-3" >
-                                I'm Samar, a 3rd grade Software Engineering student. <br/>
-                                Good knowledge of <span style={{color:"#f06ec9"}} >OOP, Java, C#,</span> 
-                                and specifically <span style={{color:"#f06ec9"}} >Web Development and React framework.</span> <br/>
-                                Enrolled in Re:coded's 
-                                front-end development bootcamp, where we get a certificate from <a href="https://flatironschool.com/" target="blank">Flatiron School</a>
+                                I'm Samar, Software Engineering student. <br/>
+                                Good knowledge of <span style={{color:"#f06ec9"}} >OOP, Java, </span> 
+                                <span style={{color:"#f06ec9"}} >React framework and a beginner NestJS learner.</span> <br/>
+                                Have a front-end development certificate from <a href="https://flatironschool.com/" target="blank">Flatiron School.</a><br/>
+                                Enrolled in TalenVar Back-End bootcamp.<br/>
+                                Front-End intern in E-Bursum.
                                 </p> 
                                 <div className="animated slideInRight">      
                                     <Images/> 

@@ -17,7 +17,7 @@ export default class projects extends React.Component{
     }));
 
     render(){
-        const scrollContainerStyle = { maxHeight: "80vh" };
+        const scrollContainerStyle = { maxHeight: "90vh" };
         return(            
             <MDBContainer >
                 <MDBCard className="card-image forProject" >

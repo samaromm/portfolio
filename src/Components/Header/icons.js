@@ -19,7 +19,7 @@ const iconList = [
   },
 ];
 
-const aboutIcon = (props) => {
+const allIcons = (props) => {
   let list = iconList.map((item) => {
     return (
       <MDBNavItem className="flex-lg-fill bd-highlight col-example">
@@ -40,4 +40,4 @@ const aboutIcon = (props) => {
 
   return <>{list}</>;
 };
-export default aboutIcon;
+export default allIcons;

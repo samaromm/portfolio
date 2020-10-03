@@ -5,7 +5,7 @@
 
 .forHome{
     background-image: url('../pics//homegif.gif');
-    height: 80vh;
+    height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
 
 .forCv{
     background-image: url('../pics//bg (2).gif');
-    height: 80vh;
+    height: 90vh;
     background-position: 80%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@ a:hover{
 
 .forCards{
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/1200px-Solid_white.svg.png');
-  height: 80vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +42,7 @@ a:hover{
 
 .forProject{
   background-image: url('../pics/projectsbg.jpg');
-  height: 80vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@ a:hover{
 
 .forAbout{
   background-image: url('../pics/bg (6).gif');
-  height: 80vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

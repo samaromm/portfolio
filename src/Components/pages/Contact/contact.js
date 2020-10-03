@@ -6,7 +6,7 @@ import Icons from './iconsForContact';
 
 export default class contact extends React.Component{
     render(){
-        const scrollContainerStyle = { maxHeight: "80vh" };
+        const scrollContainerStyle = { maxHeight: "90vh" };
         return(
             <MDBContainer>
                 <MDBCard className="text-center ">
