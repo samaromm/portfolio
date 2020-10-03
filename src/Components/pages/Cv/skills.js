@@ -4,10 +4,9 @@ const skills=()=>{
     return(
         <ul className="text-left" style={{listStyle:"none"}}>
             <li>
-                <h3 className="text-secondary">Front-end web development</h3>
-                <p>Superior level and high knowldge of HTML, CSS, Bootstrap, JS, and React framework.
-                 Intensive practicing and learning, done a number of projects using them
-                 , able to create front-end of websites from scratch, or using libraries and open source.</p>
+                <h3 className="text-secondary">HTML, CSS, Bootstrap, JS, and React framework</h3>
+                <p>Good knowledge, have done different projects, able to create websites from scratch, 
+                    or use libraries and open source.</p>
             </li>
             <hr/>
             <li>
@@ -17,16 +16,19 @@ const skills=()=>{
             </li>
             <hr/>
             <li>
-                <h3 className="text-secondary">C#</h3>
-                <p>Moderate knowledge, able to create medium level projects using C#, 
-                    used it to learn the basics of Xamarin mobile applications.</p>
+                <h3 className="text-secondary">Sass and JQuery</h3>
+                <p>Moderate knowledge, used in internship.</p>
             </li>
             <hr/>
             <li>
                 <h3 className="text-secondary">Photoshop</h3>
                 <p>Moderate knowledge, able to use it for editing and designing UI for websites and applications.</p>
             </li>
-            
+            <hr/>
+            <li>
+                <h3 className="text-secondary">NestJS and mongodb</h3>
+                <p>Beginner, CRUD functions.</p>
+            </li>  
         </ul>
     )
 }
