@@ -4,7 +4,7 @@ const skills=()=>{
     return(
         <ul className="text-left" style={{listStyle:"none"}}>
             <li>
-                <h3 className="text-secondary">HTML, CSS, Bootstrap, JS, and React framework</h3>
+                <h3 className="text-secondary">HTML, CSS, JS, React framework, and Axios</h3>
                 <p>Good knowledge, have done different projects, able to create websites from scratch, 
                     or use libraries and open source.</p>
             </li>
@@ -16,7 +16,7 @@ const skills=()=>{
             </li>
             <hr/>
             <li>
-                <h3 className="text-secondary">Sass and JQuery</h3>
+                <h3 className="text-secondary">Sass </h3>
                 <p>Moderate knowledge, used in internship.</p>
             </li>
             <hr/>
@@ -26,8 +26,8 @@ const skills=()=>{
             </li>
             <hr/>
             <li>
-                <h3 className="text-secondary">NestJS and mongodb</h3>
-                <p>Beginner, CRUD functions.</p>
+                <h3 className="text-secondary">NodeJs, Sequelize, SQL, NestJS and mongodb</h3>
+                <p>Beginner</p>
             </li>  
         </ul>
     )

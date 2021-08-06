@@ -31,7 +31,7 @@ const info=()=>{
             <hr/>
             <li>
                 <h5 className="text-secondary"> 
-                <MDBIcon icon="chalkboard-teacher" /> Learning: Turkish</h5>
+                <MDBIcon icon="chalkboard-teacher" /> Advanced: English</h5>
             </li>
             <hr/>
             <li>

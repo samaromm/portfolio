@@ -7,16 +7,20 @@ const exp = () => {
         <h4 className="text-danger">E-Bursum</h4>
         <h5>8/2020 - present</h5>
         <p>
-          Junior Developer Intern
+          Junior Developer
           <br />
-          Re-built the front-end side of the company’s website using PHP for
-          front-end, Sass, and Java Script without frameworks.
+          Re-built the front-end side of the company’s website using HTML, PHP
+          for front-end, Sass, and Java Script without frameworks.
           <br />
           The pages I built have been integrated, sent to production, and are
           fully working now. and received positive reactions from the clients
+          <br /> <br />
+          Currently working on a huge website for the company with a lot of
+          options like forms and dashboards using React, and Axios. Expected to
+          go live this year
         </p>
       </li>
-      <hr/>
+      <hr />
       <li>
         <h4 className="text-danger">Re:Coded Labs</h4>
         <h5>12/2019 - 5/2020</h5>
